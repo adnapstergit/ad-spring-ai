@@ -301,6 +301,11 @@
 				<version>${maven-checkstyle-plugin.version}</version>
 				<dependencies>
 					<dependency>
+    					<groupId>com.microsoft.onnxruntime</groupId>
+    					<artifactId>onnxruntime</artifactId>
+    					<version>1.21.1</version>
+					</dependency>
+					<dependency>
 						<groupId>com.puppycrawl.tools</groupId>
 						<artifactId>checkstyle</artifactId>
 						<version>${puppycrawl-tools-checkstyle.version}</version>
